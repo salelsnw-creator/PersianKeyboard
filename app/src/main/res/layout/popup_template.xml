@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:background="#E6E8EB"
+
+    android:padding="2dp">
+
+    <key.boo.ard.ali.GKeyboardView
+
+        android:id="@android:id/keyboardView"
+
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+
+        android:background="#E6E8EB"
+
+        android:keyBackground="@drawable/key_background_inset"
+
+        android:keyTextColor="#1F1F1F"
+
+        android:keyTextSize="22sp"
+
+        android:labelTextSize="13sp"
+
+        android:keyPreviewLayout="@null" />
+
+</FrameLayout>
