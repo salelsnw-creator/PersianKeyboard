@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="ime_status_height">28dp</dimen>
+
+    <dimen name="key_visual_inset">2dp</dimen>
+
+    <dimen name="key_corner_radius">6dp</dimen>
+
+</resources>
