@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="keyboard_background_default">#E6E8EB</color>
+
+    <color name="key_default">#FFFFFF</color>
+
+    <color name="key_pressed_default">#D0D0D0</color>
+
+    <color name="key_text_default">#1F1F1F</color>
+
+    <color name="enter_default">#4285F4</color>
+
+    <color name="highlight_default">#664285F4</color>
+
+</resources>
