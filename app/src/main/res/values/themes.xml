@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="Theme.SalarDitayl"
+        parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:fontFamily">sans</item>
+
+        <item name="android:windowActionModeOverlay">true</item>
+
+        <item name="android:colorAccent">#4285F4</item>
+
+        <item name="android:navigationBarColor">#E6E8EB</item>
+
+        <item name="android:statusBarColor">#E6E8EB</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+
+    </style>
+
+</resources>
