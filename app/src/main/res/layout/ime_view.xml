@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/ime_root"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+
+    android:background="#E6E8EB">
+
+    <TextView
+
+        android:id="@+id/progress_text"
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ime_status_height"
+
+        android:gravity="center_vertical|start"
+
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+
+        android:text="SALAR @ Ditayl  •  پیشرفت: 0/0"
+
+        android:textColor="#1F1F1F"
+        android:textSize="12sp"
+
+        android:singleLine="true" />
+
+    <FrameLayout
+
+        android:id="@+id/keyboard_frame"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <key.boo.ard.ali.GKeyboardView
+
+            android:id="@+id/keyboard_view"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@android:color/transparent"
+
+            android:keyBackground="@drawable/transparent_key"
+
+            android:keyTextColor="#1F1F1F"
+
+            android:keyTextSize="22sp"
+
+            android:labelTextSize="13sp"
+
+            android:keyPreviewLayout="@layout/popup_preview"
+
+            android:popupLayout="@layout/popup_template"
+
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <key.boo.ard.ali.HighlightOverlayView
+
+            android:id="@+id/highlight_overlay"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:clickable="false"
+            android:focusable="false" />
+
+    </FrameLayout>
+
+</LinearLayout>
